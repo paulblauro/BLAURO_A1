@@ -14,8 +14,9 @@ public class HOME extends javax.swing.JFrame {
     /**
      * Creates new form HOME
      */
-    public HOME() {
+    public HOME(String fname) {
         initComponents();
+        jLabel1.setText("WELCOME "+fname);
     }
 
     /**
@@ -126,7 +127,7 @@ new Log_in().setVisible(true);// TODO add your handling code here:
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new HOME().setVisible(true);
+                
             }
         });
     }

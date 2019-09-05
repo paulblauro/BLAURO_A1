@@ -444,7 +444,7 @@ create.setVisible(false);
         if (x == 1) {
             //System.out.println("Login Success");
             this.setVisible(false);
-            JFrame HOME = new HOME();
+            JFrame HOME = new HOME(logobj.fname);
             HOME.setVisible(true);
         } else {
             JOptionPane.showMessageDialog(rootPane, "Invalid username or password", "Error", JOptionPane.ERROR_MESSAGE);

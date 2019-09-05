@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  */
 public class log_class {
     conn con = new conn();
-    
+    String fname="";
     public int login(String username, String pass){
         int x = 0;
         
@@ -37,7 +37,7 @@ public class log_class {
             
             if(rs.next()){
                 x = 1;
-                
+                fname=rs.getString("first_name");
             }else{
                 x = 0;
             }
