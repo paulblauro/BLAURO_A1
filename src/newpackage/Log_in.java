@@ -76,9 +76,7 @@ public class Log_in extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         create.setLocation(new java.awt.Point(500, 250));
-        create.setMaximumSize(new java.awt.Dimension(372, 450));
         create.setMinimumSize(new java.awt.Dimension(372, 450));
-        create.setPreferredSize(new java.awt.Dimension(372, 450));
         create.setResizable(false);
 
         jPanel4.setBackground(new java.awt.Color(0, 51, 51));
